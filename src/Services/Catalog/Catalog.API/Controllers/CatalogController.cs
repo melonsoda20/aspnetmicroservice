@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Catalog.API.Controllers
 {
     [ApiController]
-    [Route("api/vi/[controller]")]
+    [Route("api/v1/[controller]")]
     public class CatalogController : ControllerBase
     {
         private readonly IProductRepository _repository;
